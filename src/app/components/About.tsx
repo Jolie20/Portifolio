@@ -10,7 +10,7 @@ const highlights = [
   {
     icon: Code2,
     title: "Technical Foundation",
-    description: "Strong IT background with expertise in systems, networking, and software development"
+    description: "Strong IT background with expertise in systems Administration, networking, and virtualization"
   },
   {
     icon: Cpu,
