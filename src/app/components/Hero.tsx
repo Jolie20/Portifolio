@@ -21,7 +21,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-           <span className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
+           <span className="text-6xl mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
             Jolie Amandine GIKUNDIRO
             </span>
           <motion.div
@@ -42,7 +42,7 @@ export function Hero() {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="mb-6 text-5xl md:text-5xl"
           >
-            IT Specialist • Creative Technologist • Embedded Systems Developer <br />
+            IT | UI/UX & Graphic Designer<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
           
             </span>
