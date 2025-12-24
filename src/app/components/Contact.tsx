@@ -1,25 +1,39 @@
 import { motion } from "motion/react";
-import { Mail, Linkedin, Github, ArrowUpRight } from "lucide-react";
+import {
+  Mail,
+  Linkedin,
+  Github,
+  Phone,
+  MessageSquare,
+  ArrowUpRight,
+} from "lucide-react";
 
 const contactLinks = [
   {
     icon: Mail,
     label: "Email",
     value: "jolieamanda350@gmail.com",
-    href: "mailto:jolieamanda350@gmail.com"
+    href: "mailto:jolieamanda350@gmail.com",
   },
- // {
- //   icon: Linkedin,
-  //  label: "LinkedIn",
-  //  value: "linkedin.com/in/yourprofile",
-   // href: "https://linkedin.com"
-  //},
   {
     icon: Github,
     label: "GitHub",
     value: "github.com/Jolie20",
-    href: "https://github.com"
-  }
+    href: "https://github.com",
+  },
+ 
+  {
+    icon: Phone,
+    label: "Phone",
+    value: "+250 786 862 905",
+    href: "tel:+250786862905",
+  },
+  {
+    icon: MessageSquare,
+    label: "WhatsApp",
+    value: "+250 786 862 905",
+    href: "https://wa.me/250786862905",
+  },
 ];
 
 export function Contact() {
@@ -35,7 +49,8 @@ export function Contact() {
         >
           <h2 className="text-4xl md:text-5xl mb-6">Let's Connect</h2>
           <p className="text-zinc-400 text-lg max-w-2xl mx-auto">
-            Interested in collaborating or have a project in mind? I'd love to hear from you.
+            Interested in collaborating or have a project in mind? I'd love to
+            hear from you.
           </p>
         </motion.div>
 
@@ -75,7 +90,9 @@ export function Contact() {
         >
           <div className="inline-flex items-center gap-2 px-6 py-3 bg-zinc-900 rounded-full border border-zinc-800">
             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-            <span className="text-sm text-zinc-400">Available for freelance projects</span>
+            <span className="text-sm text-zinc-400">
+              Available
+            </span>
           </div>
         </motion.div>
 

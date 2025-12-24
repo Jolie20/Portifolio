@@ -21,8 +21,8 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-           <span className="text-6xl mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
-            Jolie Amandine GIKUNDIRO
+         <span className="text-6xl mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
+            
             </span>
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
