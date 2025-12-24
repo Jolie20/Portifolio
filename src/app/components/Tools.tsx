@@ -3,12 +3,12 @@ import { motion } from "motion/react";
 const toolCategories = [
   {
     category: "Design",
-    tools: ["Figma", "Adobe XD", "Photoshop", "Illustrator"],
+    tools: ["Figma", "Adobe Photoshop", "Illustrator"],
     color: "from-pink-500 to-purple-500"
   },
   {
-    category: "Motion",
-    tools: ["After Effects", "Blender", "Motion", "Premiere Pro"],
+    category: "Animation",
+    tools: ["Animaker", "Visual effects", "Motion","Video Editing & storytelling"],
     color: "from-purple-500 to-blue-500"
   },
   {
@@ -18,7 +18,7 @@ const toolCategories = [
   },
   {
     category: "IT",
-    tools: ["Networking", "IT Support", "Systems Admin", "Windows Server"],
+    tools: ["Networking", "IT Support", "Systems Admin", "Windows Server","Data management"],
     color: "from-cyan-500 to-teal-500"
   }
 ];
