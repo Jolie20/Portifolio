@@ -10,19 +10,27 @@ export function Hero() {
   };
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center px-6 pt-20">
+    
+    <section
+      id="hero"
+      className="min-h-screen flex items-center justify-center px-6 pt-20"
+    >
       <div className="container mx-auto max-w-4xl text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
+           <span className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
+            Jolie Amandine GIKUNDIRO
+            </span>
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2, duration: 0.6 }}
             className="mb-6"
           >
+            
             <span className="text-purple-400 uppercase tracking-widest text-sm">
               Creative Technologist
             </span>
@@ -34,9 +42,9 @@ export function Hero() {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="mb-6 text-5xl md:text-7xl"
           >
-            UI/UX Designer |<br />
+            IT • UI/UX Designer <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
-              Embedded Systems
+            Graphic Designer 
             </span>
           </motion.h1>
 
@@ -46,9 +54,10 @@ export function Hero() {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-zinc-400 max-w-2xl mx-auto mb-12 text-lg"
           >
-            I design intuitive digital products, create visual and motion designs, and build
-            smart systems using embedded technologies. My work focuses on solving real-world
-            problems through both design and technology.
+            I design intuitive digital products, craft strong visual and motion designs, 
+            and develop smart systems using embedded technologies.
+             My work focuses on solving real-world problems by combining thoughtful design with practical,
+              technology-driven solutions.
           </motion.p>
 
           <motion.button
