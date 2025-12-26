@@ -91,7 +91,7 @@ export function Contact() {
           <div className="inline-flex items-center gap-2 px-6 py-3 bg-zinc-900 rounded-full border border-zinc-800">
             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
             <span className="text-sm text-zinc-400">
-              Available
+              Availableee
             </span>
           </div>
         </motion.div>
