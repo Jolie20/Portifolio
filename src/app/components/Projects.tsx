@@ -84,7 +84,7 @@ const projects = [
     description:
       "Reliable IT support services focused on troubleshooting hardware and software issues, maintaining systems, and ensuring smooth day-to-day technology operations for users and organizations.",
     image:
-      "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmFwaGljJTIwZGVzaWduJTIwd29ya3NwYWNlfGVufDF8fHx8MTc2NjQ4OTU3MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      new URL("../../../images/ITSUPPORT.jpeg", import.meta.url).href,
     tags: [
       "IT Support",
       "Technical Support",
