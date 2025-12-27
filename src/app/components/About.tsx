@@ -33,7 +33,7 @@ export function About() {
           <h2 className="text-4xl md:text-5xl mb-6">About Me</h2>
           <div className="max-w-3xl mx-auto space-y-4 text-zinc-400 text-lg">
             <p>
-              I'm an IT student with a strong interest in design, embedded systems, IT Support and
+              I'm an IT with a strong interest in design, embedded systems, IT Support and
               interactive technologies. My journey combines the analytical thinking of
               computer science with the creativity of design.
             </p>

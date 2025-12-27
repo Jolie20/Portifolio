@@ -40,11 +40,11 @@ export function Navigation() {
             <img
               src="/images/portrait.jpeg"
               alt="Jolie Amandine portrait"
-              className="w-10 h-10 rounded-full object-cover"
+              className="w-12 h-12 md:w-14 md:h-14 rounded-full object-cover"
               loading="lazy"
             />
             <div className="flex flex-col items-start leading-tight">
-              <span className="text-lg font-semibold">PORTFOLIO</span>
+              <span className="text-lg font-semibold"></span>
               <span className="text-xs uppercase tracking-wider text-zinc-400">
                 Jolie Amandine GIKUNDIRO
               </span>
