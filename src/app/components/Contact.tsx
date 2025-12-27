@@ -65,18 +65,18 @@ export function Contact() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="group flex items-center justify-between p-6 bg-zinc-900 rounded-xl border border-zinc-800 hover:border-purple-500/50 transition-all"
+              className="group flex flex-col md:flex-row items-start md:items-center justify-between p-4 md:p-6 bg-zinc-900 rounded-xl border border-zinc-800 hover:border-purple-500/50 transition-all"
             >
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-4 w-full md:w-auto">
                 <div className="w-12 h-12 bg-purple-600/20 rounded-lg flex items-center justify-center">
                   <link.icon className="w-6 h-6 text-purple-400" />
                 </div>
-                <div>
+                <div className="min-w-0">
                   <div className="text-sm text-zinc-500 mb-1">{link.label}</div>
-                  <div className="text-zinc-200">{link.value}</div>
+                  <div className="text-zinc-200 truncate md:max-w-[20rem] break-words">{link.value}</div>
                 </div>
               </div>
-              <ArrowUpRight className="w-5 h-5 text-zinc-600 group-hover:text-purple-400 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
+              <ArrowUpRight className="w-5 h-5 mt-4 md:mt-0 text-zinc-600 group-hover:text-purple-400 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
             </motion.a>
           ))}
         </div>

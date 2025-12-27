@@ -30,7 +30,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
       onHoverEnd={() => setIsHovered(false)}
       className="group relative bg-zinc-900 rounded-xl overflow-hidden border border-zinc-800 hover:border-purple-500/50 transition-all duration-300"
     >
-      <div className="relative h-64 overflow-hidden">
+      <div className="relative h-56 md:h-64 overflow-hidden">
         <motion.img
           src={project.image}
           alt={project.title}

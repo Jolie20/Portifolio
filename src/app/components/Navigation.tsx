@@ -53,7 +53,8 @@ export function Navigation() {
             </div>
           </button>
 
-          <div className="flex gap-8">
+          {/* Desktop links */}
+          <div className="hidden md:flex gap-8">
             {["projects", "about", "tools", "contact"].map((item) => (
               <button
                 key={item}
@@ -64,8 +65,50 @@ export function Navigation() {
               </button>
             ))}
           </div>
+
+          {/* Mobile menu button */}
+          <MobileMenu />
         </div>
       </div>
     </motion.nav>
+  );
+}
+
+function MobileMenu() {
+  const [open, setOpen] = useState(false);
+  const items = ["projects", "about", "tools", "contact"];
+
+  return (
+    <div className="md:hidden relative">
+      <button
+        aria-label="Open menu"
+        onClick={() => setOpen((s) => !s)}
+        className="p-2 rounded-md text-zinc-400 hover:text-white bg-transparent"
+      >
+        <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+
+      {open && (
+        <div className="absolute right-0 mt-2 w-44 bg-zinc-900 rounded-md border border-zinc-800 shadow-lg z-50">
+          <div className="flex flex-col py-2">
+            {items.map((item) => (
+              <button
+                key={item}
+                onClick={() => {
+                  const el = document.getElementById(item);
+                  if (el) el.scrollIntoView({ behavior: "smooth" });
+                  setOpen(false);
+                }}
+                className="text-left px-4 py-2 text-sm text-zinc-300 hover:bg-zinc-800"
+              >
+                {item}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
   );
 }
