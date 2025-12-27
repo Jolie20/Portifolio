@@ -24,6 +24,19 @@ export function Hero() {
          <span className="text-6xl mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
             
             </span>
+            <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12 text-center md:text-left">
+              {/* Portrait on the left (uses project-root /images/portrait.jpeg) */}
+              <img
+                src="/images/portrait.jpeg"
+                alt="Jolie Amandine GIKUNDIRO"
+                className="w-36 h-36 md:w-48 md:h-48 rounded-full object-cover shadow-lg"
+                loading="lazy"
+              />
+
+              <div className="flex-1">
+                <span className="text-6xl mb-6 block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
+                  Jolie Amandine GIKUNDIRO
+                </span>
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -70,6 +83,8 @@ export function Hero() {
             View My Work
             <ArrowDown className="w-4 h-4 group-hover:translate-y-1 transition-transform" />
           </motion.button>
+            </div>
+            </div>
         </motion.div>
 
         <motion.div
