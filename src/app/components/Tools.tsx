@@ -13,7 +13,7 @@ const toolCategories = [
   },
   {
     category: "Tech",
-    tools: ["Arduino", "C/C++", "Python", "SQL"],
+    tools: ["Arduino", "C/C++", "Python", "SQL","HTML/CSS"],
     color: "from-blue-500 to-cyan-500"
   },
   {
