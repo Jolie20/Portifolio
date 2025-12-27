@@ -32,7 +32,7 @@ const projects = [
     description:
       "Modern dashboard interface for IT system monitoring with real-time data visualization and control panels.",
     image:
-      "https://images.unsplash.com/photo-1758411898021-ef0dadaaa295?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBkYXNoYm9hcmQlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzY2NTQyNzQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      new URL("../../../images/Good Food - Food Delivery App UI.jpeg", import.meta.url).href,
     tags: ["Dashboard", "Data Viz", "UI Design", "Components"],
     details: [
       "Component library",
@@ -106,7 +106,7 @@ const projects = [
     description:
       "Interactive UI animations and micro-interactions designed to enhance user experience and engagement.",
     image:
-      "https://images.unsplash.com/photo-1740174459682-4dd3f72e2512?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3Rpb24lMjBncmFwaGljcyUyMGFuaW1hdGlvbnxlbnwxfHx8fDE3NjY0ODgxNjF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+     new URL("../../../images/programmer.jpeg", import.meta.url).href,
     tags: ["After Effects", "Motion", "UI Animation", "Micro-interactions"],
     details: [
       "Loading animations",
