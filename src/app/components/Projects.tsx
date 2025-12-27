@@ -125,7 +125,7 @@ const projects = [
     "Complete networking solutions including network planning, installation, configuration, and maintenance to ensure secure, reliable, and efficient communication systems",
     // Use Vite-compatible URL so the image from project root 'images/' is bundled and served
     // (relative path: from src/app/components -> go up three levels to project root)
-    image: new URL("../../../images/drip_maker.jpeg", import.meta.url).href,
+    image: new URL("../../../images/Networking.jpeg", import.meta.url).href,
     tags: ["Networking", "LAN/WAN", "Routing & Switching", "Networking Security"],
     details: [
     "Networking topology design",
