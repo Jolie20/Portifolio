@@ -130,8 +130,7 @@ export function Projects() {
         >
           <h2 className="text-4xl md:text-5xl mb-4">Featured Projects</h2>
           <p className="text-zinc-400 text-lg max-w-2xl mx-auto">
-            A showcase of my work across UI/UX design, embedded systems, and
-            visual design
+            A showcase of my work across my skills
           </p>
         </motion.div>
 
