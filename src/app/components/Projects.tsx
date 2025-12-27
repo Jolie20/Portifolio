@@ -59,6 +59,7 @@ const projects = [
       "Social media designs",
     ],
   },
+  
   //{
   //id: 3,
   //title: "Arduino Sensor System",
@@ -113,6 +114,25 @@ const projects = [
       "Transition effects",
       "Interactive prototypes",
       "Explainer videos",
+    ],
+  },
+   {
+    id: 3,
+    title: "NETWORKING & IT INFRASTRUCTURE",
+    category: "Networking Design & Implementation",
+    description:
+    "Complete networking solutions including network planning, installation, configuration, and maintenance to ensure secure, reliable, and efficient communication systems",
+    // Use Vite-compatible URL so the image from project root 'images/' is bundled and served
+    // (relative path: from src/app/components -> go up three levels to project root)
+    image: new URL("../../../images/drip_maker.jpeg", import.meta.url).href,
+    tags: ["Networking", "LAN/WAN", "Routing & Switching", "Networking Security"],
+    details: [
+    "Networking topology design",
+      "Router & switch configuration",
+      "LAN/WAN setup",
+      "IP addressing & Subnetting",
+      "Network troubleshooting",
+      "Security configuration (firewalls, access control)",
     ],
   },
 ];
