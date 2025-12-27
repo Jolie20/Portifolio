@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 const toolCategories = [
   {
     category: "Design",
-    tools: ["Figma", "Adobe Photoshop", "Illustrator"],
+    tools: ["Figma", "Adobe Photoshop", "Illustrator"," Canva",],
     color: "from-pink-500 to-purple-500"
   },
   {

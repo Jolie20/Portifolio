@@ -9,7 +9,7 @@ const projects = [
     description:
       "A Smart Parking System designed to help drivers easily find available parking spaces. The system uses sensors to detect whether a parking slot is occupied or free and displays real-time parking status. This reduces traffic congestion, saves time, and improves parking efficiency.",
     image:
-      "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ258ZW58MXx8fHwxNzY2NDk4OTU2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      new URL("../../../images/smart_parking.jpeg", import.meta.url).href,
     tags: [
       "IoT",
       "Embedded systems",
