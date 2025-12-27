@@ -44,9 +44,11 @@ export function Navigation() {
               loading="lazy"
             />
             <div className="flex flex-col items-start leading-tight">
-              <span className="text-lg font-semibold"></span>
-              <span className="text-xs uppercase tracking-wider text-zinc-400">
-                Jolie Amandine GIKUNDIRO
+              <span className="text-sm md:text-base font-extrabold tracking-tight whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
+                JOLIE AMANDINE GIKUNDIRO
+              </span>
+              <span className="text-xs uppercase tracking-wider text-zinc-400 mt-0.5">
+                PORTFOLIO
               </span>
             </div>
           </button>
