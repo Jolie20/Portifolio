@@ -36,34 +36,13 @@ export function Navigation() {
             className="flex items-center gap-3 text-lg tracking-wider hover:text-purple-400 transition-colors"
             aria-label="Go to top / portfolio"
           >
-            {/* Inline SVG avatar - replace with <img src="/path/to/your-photo.jpg" /> if you have an image */}
-            <span className="w-10 h-10 rounded-full overflow-hidden bg-zinc-800 flex items-center justify-center">
-              <svg
-                viewBox="0 0 100 100"
-                className="w-full h-full"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-hidden
-              >
-                <defs>
-                  <linearGradient id="g" x1="0" x2="1">
-                    <stop offset="0" stopColor="#7c3aed" />
-                    <stop offset="1" stopColor="#ec4899" />
-                  </linearGradient>
-                </defs>
-                <rect width="100" height="100" fill="url(#g)" />
-                <text
-                  x="50"
-                  y="58"
-                  fontSize="36"
-                  fontWeight="700"
-                  textAnchor="middle"
-                  fill="white"
-                >
-                  J
-                </text>
-              </svg>
-            </span>
+            {/* Portrait avatar (project root /images/portrait.jpeg) */}
+            <img
+              src="/images/portrait.jpeg"
+              alt="Jolie Amandine portrait"
+              className="w-10 h-10 rounded-full object-cover"
+              loading="lazy"
+            />
             <div className="flex flex-col items-start leading-tight">
               <span className="text-lg font-semibold">PORTFOLIO</span>
               <span className="text-xs uppercase tracking-wider text-zinc-400">
