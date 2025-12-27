@@ -8,8 +8,7 @@ const projects = [
     category: "Embedded Systems & IoT",
     description:
       "A Smart Parking System designed to help drivers easily find available parking spaces. The system uses sensors to detect whether a parking slot is occupied or free and displays real-time parking status. This reduces traffic congestion, saves time, and improves parking efficiency.",
-    image:
-      new URL("../../../images/smart_parking.jpeg", import.meta.url).href,
+    image: new URL("../../../images/smart_parking.jpeg", import.meta.url).href,
     tags: [
       "IoT",
       "Embedded systems",
@@ -31,8 +30,10 @@ const projects = [
     category: "UI Dashboard Design",
     description:
       "Modern dashboard interface for IT system monitoring with real-time data visualization and control panels.",
-    image:
-      new URL("../../../images/Good Food - Food Delivery App UI.jpeg", import.meta.url).href,
+    image: new URL(
+      "../../../images/Good Food - Food Delivery App UI.jpeg",
+      import.meta.url
+    ).href,
     tags: ["Dashboard", "Data Viz", "UI Design", "Components"],
     details: [
       "Component library",
@@ -105,8 +106,7 @@ const projects = [
     category: "Animation / Motion Design",
     description:
       "Interactive UI animations and micro-interactions designed to enhance user experience and engagement.",
-    image:
-     new URL("../../../images/programmer.jpeg", import.meta.url).href,
+    image: new URL("../../../images/programmer.jpeg", import.meta.url).href,
     tags: ["After Effects", "Motion", "UI Animation", "Micro-interactions"],
     details: [
       "Loading animations",

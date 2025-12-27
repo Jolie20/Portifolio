@@ -39,7 +39,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
           transition={{ duration: 0.4 }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-zinc-900/50 to-transparent" />
-        
+
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: isHovered ? 1 : 0 }}
@@ -55,12 +55,10 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
             {project.category}
           </span>
         </div>
-        
+
         <h3 className="text-2xl mb-3">{project.title}</h3>
-        
-        <p className="text-zinc-400 mb-4">
-          {project.description}
-        </p>
+
+        <p className="text-zinc-400 mb-4">{project.description}</p>
 
         <div className="flex flex-wrap gap-2 mb-4">
           {project.tags.map((tag) => (
@@ -75,7 +73,10 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
 
         <div className="space-y-1">
           {project.details.map((detail, i) => (
-            <div key={i} className="flex items-center gap-2 text-sm text-zinc-500">
+            <div
+              key={i}
+              className="flex items-center gap-2 text-sm text-zinc-500"
+            >
               <div className="w-1.5 h-1.5 bg-purple-500 rounded-full" />
               <span>{detail}</span>
             </div>

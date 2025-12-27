@@ -21,7 +21,7 @@ const contactLinks = [
     value: "github.com/Jolie20",
     href: "https://github.com",
   },
- 
+
   {
     icon: Phone,
     label: "Phone",
@@ -73,7 +73,9 @@ export function Contact() {
                 </div>
                 <div className="min-w-0">
                   <div className="text-sm text-zinc-500 mb-1">{link.label}</div>
-                  <div className="text-zinc-200 truncate md:max-w-[20rem] break-words">{link.value}</div>
+                  <div className="text-zinc-200 truncate md:max-w-[20rem] break-words">
+                    {link.value}
+                  </div>
                 </div>
               </div>
               <ArrowUpRight className="w-5 h-5 mt-4 md:mt-0 text-zinc-600 group-hover:text-purple-400 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
@@ -90,9 +92,7 @@ export function Contact() {
         >
           <div className="inline-flex items-center gap-2 px-6 py-3 bg-zinc-900 rounded-full border border-zinc-800">
             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-            <span className="text-sm text-zinc-400">
-              Available
-            </span>
+            <span className="text-sm text-zinc-400">Available</span>
           </div>
         </motion.div>
 
