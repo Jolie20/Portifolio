@@ -92,6 +92,7 @@ const projects = [
       "System administration",
       "Networking",
       " Troubleshooting",
+      "Ticketing",
     ],
     details: [
       "Hardware & software troubleshooting",
