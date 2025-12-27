@@ -20,9 +20,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <span className="text-6xl mb-6 block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
-          
-          </span>
+          <span className="text-6xl mb-6 block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400"></span>
 
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
@@ -50,11 +48,10 @@ export function Hero() {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-zinc-400 max-w-2xl mx-auto mb-12 text-lg"
           >
-            I design intuitive digital products, craft strong visual and
-            motion designs, and develop smart systems using embedded
-            technologies. My work focuses on solving real-world problems by
-            combining thoughtful design with practical, technology-driven
-            solutions.
+            I design intuitive digital products, craft strong visual and motion
+            designs, and develop smart systems using embedded technologies. My
+            work focuses on solving real-world problems by combining thoughtful
+            design with practical, technology-driven solutions.
           </motion.p>
 
           <motion.button
